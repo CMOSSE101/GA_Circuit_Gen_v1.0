@@ -26,7 +26,7 @@ logoRevise = """
 
  * Currently under delevopment *
 
-Press to continue instruction...
+Press Enter to continue instruction...
 """
 
 
@@ -66,7 +66,7 @@ instructionsA = """
  # ^ To verify answers
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 
 """
 
@@ -107,7 +107,7 @@ instructionsB = """
 ----------------------------------------
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 
 """
 
@@ -135,7 +135,7 @@ instructionsC = """
  # 7. (Goto 2)
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 
 """
 
@@ -170,7 +170,7 @@ instructionsD = """
  chromosomeTemplate = [[1,2,0],[1,2,0],[3,4,0],[5]]
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 
 """
 
@@ -198,7 +198,7 @@ instructionsE = """
  # The two highest scoring chromosomes are selected as parents.
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 """
 
 
@@ -237,7 +237,7 @@ instructionsF = """
  # until a new population of the required size is fufilled.
 
 
-Press to continue instruction...
+Press Enter to continue instruction...
 
 """
 
