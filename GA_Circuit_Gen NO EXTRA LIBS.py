@@ -18,9 +18,9 @@
 # ^ To verify answers
 
 
-import pandas as pd
+#import pandas as pd
 import random
-import matplotlib
+#import matplotlib
 #import numpy as np
 
 # start on screen instruct
@@ -733,15 +733,15 @@ genChromosomes()
 genrationLoop()
 
 
-input("\nPress to continue... (End Program & Plot Results)")
+#input("\nPress to continue... (End Program & Plot Results)")
 
 
 
 # log and plot fitnesses
-fit_log = pd.DataFrame(fitness_avg_log)
-fit_log_plot = fit_log.plot(kind="line", grid=True).get_figure()
-fit_log_plot.savefig("GA_Circuit_Average_Fitness.pdf")
-print("Average Fitness Plot - Complete")
+#fit_log = pd.DataFrame(fitness_avg_log)
+#fit_log_plot = fit_log.plot(kind="line", grid=True).get_figure()
+#fit_log_plot.savefig("GA_Circuit_Average_Fitness.pdf")
+#print("Average Fitness Plot - Complete")
 
 
 
