@@ -24,7 +24,7 @@ import matplotlib
 #import numpy as np
 
 # start on screen instruct
-from starter import logoDisp
+from introFunctions import logoDisp
 logoDisp()
 
 
