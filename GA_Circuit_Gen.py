@@ -228,6 +228,23 @@ generation_num = 0
 #----------------------------------------------------------#
 ############################################################
 
+# reveals to user the truth table to satisfy
+def dispTruthTable():
+    # display header of the truth table
+    print("\n Input Truth Table")
+    print(" -----------------\n")
+    print("  A | B | Output")
+    print(" ---|---|-------")
+    
+    # display each row of the table
+    for row in truthTable:
+        # display formatted table data
+        print(" ",str(row[0]), "|", str(row[1]), "| ",str(row[2]))
+
+    # wait for user
+    input("\n\nPress Enter to continue...")
+    
+    
 
 
 # Generate Initial Population
@@ -617,8 +634,6 @@ def genrationLoop():
             print("\nFEASABLE SULUTION FOUND")
             print("-----------------------")
             input("Press Enter to continue...")
-
-
             
             # display new population
             print("\nNew Population: (Gen ",generation_num,")")
@@ -632,6 +647,10 @@ def genrationLoop():
             num_success = len(succesfull)
             print("\nSuccesfull Chromosomes : ", num_success)
             print("")
+            input("Press Enter to continue...")
+
+            # display truth table
+            dispTruthTable()
             
             # print all succesfull chromosomes
             for i in range(0, num_success):
@@ -709,6 +728,7 @@ def genrationLoop():
 # MAIN CODE
 ###########
 
+dispTruthTable()
 genChromosomes()
 genrationLoop()
 
