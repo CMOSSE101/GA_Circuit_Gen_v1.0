@@ -2,21 +2,14 @@
 A Python-Based Genetic Algorithm that produces feasible circuit designs to a provided 2 input Truth Table
 
 
- #**********************
- # GA Circuit Gen | v1 #
- #**********************
- # By Ryan Brown
- 
-
- #-----------------------------
  # This program generates
  # a solution to a truth table
  # through the use of
  # Genetic Alogorithms
- #-----------------------------
 
- # Average fitness logged in a graph
- # PDF format (In defualt folder)
+
+ Average fitness logged in a graph
+ PDF format (In defualt folder)
 
 
  **********************
